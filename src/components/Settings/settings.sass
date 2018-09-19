@@ -1,0 +1,32 @@
+@import src/styles/_vars
+
+.settings
+  display: flex
+  justify-content: space-between
+  margin: 0.5em 1em
+  font-size: 1.5em
+  &-title, &-cross
+    color: $text-color
+  &-inputShow, &-information
+    display: flex
+  &-inputShow-input
+    display: inline-block
+    padding: .7em .7em
+    color: $text-color
+    background-color: $input-background-color
+    border: none
+    border-top-left-radius: 1em
+    border-bottom-left-radius: 1em
+  &-inputShow-btn
+    color: $btn-save-color
+    padding-right: 1em
+    background-color: $input-background-color
+    border: none
+    border-top-right-radius: 1em
+    border-bottom-right-radius: 1em
+  &-cross
+    transition-duration: .5s
+  & .active
+    color: $cross-active
+    margin-right: .5em
+    transform: rotate(410deg)

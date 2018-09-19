@@ -1,0 +1,29 @@
+@import src/styles/_vars
+
+.messages 
+  margin: 0 1em
+  display: flex
+  flex-direction: column
+  height: calc(100% - 200px)
+  overflow-y: scroll
+.message
+  max-width: 75%
+  padding: 1em 1em
+  margin-bottom: 1em
+  font-size: .9em
+  letter-spacing: .1em
+  border-radius: 1em
+.myMessage
+  margin-right: .7em
+  align-self: flex-end
+  background-color: $my-message-color
+.notMyMessage
+  align-self: flex-start
+  background-color: $not-my-message-color
+.userName
+  font-size: .7em
+  text-transform: uppercase
+  margin-bottom: .5em
+.privateMessage
+  font-style: italic
+  background-color: $private-message-color
