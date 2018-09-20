@@ -1,6 +1,6 @@
 # Chatroom
 
-Simple application chatroom using NodeJS + React + Redux + socketio
+Simple chatroom application using NodeJS + React + Redux  socketio
 
 # Features
 
@@ -15,7 +15,7 @@ Simple application chatroom using NodeJS + React + Redux + socketio
 
 # Run application
 
-* `yarn install` for install dependecies
+* `yarn install` for install dependencies
 * `yarn start:server` for run back server
 * `yarn start` for buil front application
 
@@ -31,7 +31,7 @@ If you want practice using this base code you can add :
 
 Justin Rabiller
 
-I made this application to practice my react lessons. Feel free to use it, read the code, optimise, all you want whit this repo ! If you have any advice contact me !
+I made this application to practice my react lessons. Feel free to use it, read the code, optimise, all you want with this repo ! If you have any advice contact me !
 
 > justin.rabiller@gmail.com
 
