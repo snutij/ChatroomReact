@@ -2,6 +2,8 @@
 
 Simple chatroom application using NodeJS + React + Redux  socketio
 
+I made this application to practice my react lessons in 2017, it's not uptodate. Feel free to use it, read the code, optimise, all you want with this repo !
+
 # Features
 
 * By default you have a random username
@@ -26,11 +28,5 @@ If you want practice using this base code you can add :
 * Stock messages in back server for allow persist messages (like 100 latest for not surcharged server)
 * Add timestamp to each message
 * If you click on username it could be insert `/w ${thisUsername} to the input message
-
-# Author
-
-Justin Rabiller
-
-I made this application to practice my react lessons. Feel free to use it, read the code, optimise, all you want with this repo ! If you have any advice contact me !
 
 [Licence](LICENSE)
