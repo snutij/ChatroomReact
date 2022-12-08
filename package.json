@@ -42,7 +42,7 @@
   "dependencies": {
     "@babel/polyfill": "*",
     "classnames": "*",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "prop-types": "^15.6.2",
     "react": "*",
     "react-dom": "*",
